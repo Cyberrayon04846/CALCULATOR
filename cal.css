@@ -24,6 +24,7 @@
  }   
 
 .but{
+    position: relative;
     width: 109%;
     height: 550%;
     text-align: center;
@@ -31,6 +32,13 @@
     cursor: pointer;    
     border: none;
     background: linear-gradient(120deg , rgba(128, 139, 136, 0) , rgb(75, 75, 75));
+
+}
+
+@media only screen and (max-width: 563px){
+    #contain {
+        width: 200px;
+    }
 
 }
 
