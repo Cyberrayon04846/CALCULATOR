@@ -1,0 +1,37 @@
+#contain{
+    width: 30%;
+    height:  26.5%;
+    border: none;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(120deg , rgba(128, 139, 136, 0) , rgb(75, 75, 75));
+    box-shadow: 10px 10px 5px rgb(27, 26, 26) ;
+    
+}
+#screen{
+    text-align: center;
+    position: relative;
+    width: 98%;
+    height: 22%;
+    border: none;
+    background: linear-gradient(120deg , rgba(128, 139, 136, 0) , rgb(75, 75, 75));
+}
+
+ #tab{
+     text-align: center;
+     width: 100%;
+     margin-left: -1%;
+ }   
+
+.but{
+    width: 109%;
+    height: 550%;
+    text-align: center;
+    margin-top: -19%;
+    cursor: pointer;    
+    border: none;
+    background: linear-gradient(120deg , rgba(128, 139, 136, 0) , rgb(75, 75, 75));
+
+}
+
+
