@@ -1,4 +1,3 @@
-;
 buttons = document.querySelectorAll('button');
 const screen = document.getElementById('screen');
 
@@ -9,6 +8,7 @@ console.log(typeof screenValue)
 for (item of buttons) {
     item.addEventListener('click', (e) => {
         buttonText = e.target.innerText;
+        // console.log(typeof buttonText);
 
         if (buttonText == `X`) {
             buttonText = `*`;
@@ -29,15 +29,14 @@ for (item of buttons) {
 
 
         }
-        else if (buttonText == `B`){
-           
-                
-              screenValue.slice(0,-1);
-              screen.value=screenValue;
-          
-                
-            
-            
+        else if (buttonText == `B`) {
+            screenValue = screen.value;
+            screen1 = screenValue;
+            screen2 = screen1.slice(0, -1);
+            screen.value = screen2;
+
+
+
         }
 
 
