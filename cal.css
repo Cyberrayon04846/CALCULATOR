@@ -1,11 +1,18 @@
+body{
+    background-color: #5c5a5a;
+    color: #fff; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;   
+    text-align: center; 
+}
 #contain{
+    margin-top: 10%;
+    margin-left: 35%;
     width: 30%;
     height:  26.5%;
     border: none;
     position: relative;
     text-align: center;
-    background: linear-gradient(120deg , rgba(128, 139, 136, 0) , rgb(75, 75, 75));
-    box-shadow: 10px 10px 5px rgb(27, 26, 26) ;
+    background-color: #5c5a5a;
     
 }
 #screen{
@@ -14,7 +21,7 @@
     width: 98%;
     height: 22%;
     border: none;
-    background: linear-gradient(120deg , rgba(128, 139, 136, 0) , rgb(75, 75, 75));
+    background: #fff
 }
 
  #tab{
@@ -24,6 +31,7 @@
  }   
 
 .but{
+    color: #fff;
     position: relative;
     width: 109%;
     height: 550%;
@@ -31,7 +39,7 @@
     margin-top: -19%;
     cursor: pointer;    
     border: none;
-    background: linear-gradient(120deg , rgba(128, 139, 136, 0) , rgb(75, 75, 75));
+    background-color: #5c5a5a;
 
 }
 
